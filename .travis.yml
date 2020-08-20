@@ -27,7 +27,7 @@ after_success:
 before_deploy:
   - "./gradlew -p ./monolithic/ui packageToContainer ;"
 
- deploy:
+deploy:
     provider: script
     script: "./script/deploy.sh"
     on:
