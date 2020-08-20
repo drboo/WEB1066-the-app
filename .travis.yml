@@ -11,7 +11,7 @@ env:
     - COVERAGE=0.36 BUILD_TARGET=./monolithic/repository/order
     - COVERAGE=0.0 BUILD_TARGET=./monolithic/repository/cart
     - COVERAGE=0.12 BUILD_TARGET=./monolithic/repository/product
-    - COVERAGE=0.31 BUiLD_TARGET=./monolithic/repository/user
+    - COVERAGE=0.30 BUiLD_TARGET=./monolithic/repository/user
   global:
     - DOCKER_LOGIN=femionaks
     - secure: 25b63ed5-c9bf-407b-8b76-586e301ec741
