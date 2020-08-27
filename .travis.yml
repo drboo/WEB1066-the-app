@@ -33,3 +33,4 @@ deploy:
     on:
       condition: "$BUILD_TARGET == './monolithic/ui'"
       branch: master
+      
